@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48164F812576573600AEEE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48164F802576573600AEEE46 /* AppDelegate.swift */; };
+		48164F832576573600AEEE46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48164F822576573600AEEE46 /* SceneDelegate.swift */; };
+		48164F8A2576573700AEEE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48164F892576573700AEEE46 /* Assets.xcassets */; };
+		48164F8D2576573700AEEE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48164F8B2576573700AEEE46 /* LaunchScreen.storyboard */; };
+		48164F9B25765DB800AEEE46 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48164F9925765DB800AEEE46 /* TabBarViewController.swift */; };
+		48164FA225765EEA00AEEE46 /* StudiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48164FA025765EEA00AEEE46 /* StudiosViewController.swift */; };
+		48164FA325765EEA00AEEE46 /* StudiosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48164FA125765EEA00AEEE46 /* StudiosViewController.xib */; };
+		48164FA6257661C200AEEE46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48164FA5257661C200AEEE46 /* GoogleService-Info.plist */; };
+		481650362577B5D600AEEE46 /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481650342577B5D600AEEE46 /* TimeCollectionViewCell.swift */; };
+		481650372577B5D600AEEE46 /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481650352577B5D600AEEE46 /* TimeCollectionViewCell.xib */; };
+		4816503B2577C9FB00AEEE46 /* StudiosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816503A2577C9FB00AEEE46 /* StudiosModel.swift */; };
+		4816503E25780B1400AEEE46 /* AdminMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816503D25780B1400AEEE46 /* AdminMode.swift */; };
+		481650422578E6E900AEEE46 /* BookingFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481650402578E6E900AEEE46 /* BookingFormViewController.swift */; };
+		481650432578E6E900AEEE46 /* BookingFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481650412578E6E900AEEE46 /* BookingFormViewController.xib */; };
+		4816504A2578F76F00AEEE46 /* BookingFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481650492578F76F00AEEE46 /* BookingFormModel.swift */; };
+		4816504E257A3E5200AEEE46 /* PriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816504C257A3E5200AEEE46 /* PriceTableViewCell.swift */; };
+		4816504F257A3E5200AEEE46 /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4816504D257A3E5200AEEE46 /* PriceTableViewCell.xib */; };
+		48165054257A486F00AEEE46 /* CustonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48165053257A486F00AEEE46 /* CustonProtocols.swift */; };
+		4816505A257A655100AEEE46 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48165059257A655100AEEE46 /* Booking.swift */; };
+		53ADE252E570087582F138AE /* Pods_Studios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B61B19BCF7F2F160AB7208 /* Pods_Studios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		273EC6651BD223CA9C7535D3 /* Pods-Studios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studios.debug.xcconfig"; path = "Target Support Files/Pods-Studios/Pods-Studios.debug.xcconfig"; sourceTree = "<group>"; };
+		4492E017887F12F3626A6419 /* Pods-Studios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studios.release.xcconfig"; path = "Target Support Files/Pods-Studios/Pods-Studios.release.xcconfig"; sourceTree = "<group>"; };
+		48164F7D2576573600AEEE46 /* Studios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48164F802576573600AEEE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48164F822576573600AEEE46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48164F892576573700AEEE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48164F8C2576573700AEEE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48164F8E2576573700AEEE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48164F9925765DB800AEEE46 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		48164FA025765EEA00AEEE46 /* StudiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiosViewController.swift; sourceTree = "<group>"; };
+		48164FA125765EEA00AEEE46 /* StudiosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudiosViewController.xib; sourceTree = "<group>"; };
+		48164FA5257661C200AEEE46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		481650342577B5D600AEEE46 /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		481650352577B5D600AEEE46 /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		4816503A2577C9FB00AEEE46 /* StudiosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiosModel.swift; sourceTree = "<group>"; };
+		4816503D25780B1400AEEE46 /* AdminMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMode.swift; sourceTree = "<group>"; };
+		481650402578E6E900AEEE46 /* BookingFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFormViewController.swift; sourceTree = "<group>"; };
+		481650412578E6E900AEEE46 /* BookingFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingFormViewController.xib; sourceTree = "<group>"; };
+		481650492578F76F00AEEE46 /* BookingFormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFormModel.swift; sourceTree = "<group>"; };
+		4816504C257A3E5200AEEE46 /* PriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTableViewCell.swift; sourceTree = "<group>"; };
+		4816504D257A3E5200AEEE46 /* PriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		48165053257A486F00AEEE46 /* CustonProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonProtocols.swift; sourceTree = "<group>"; };
+		48165059257A655100AEEE46 /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		B8B61B19BCF7F2F160AB7208 /* Pods_Studios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48164F7A2576573600AEEE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ADE252E570087582F138AE /* Pods_Studios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48164F742576573600AEEE46 = {
+			isa = PBXGroup;
+			children = (
+				48164F7F2576573600AEEE46 /* Studios */,
+				48164F7E2576573600AEEE46 /* Products */,
+				9E4DD84B09770B31D95D3289 /* Pods */,
+				73BDCCE249E9BC2B9DE79F02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48164F7E2576573600AEEE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48164F7D2576573600AEEE46 /* Studios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48164F7F2576573600AEEE46 /* Studios */ = {
+			isa = PBXGroup;
+			children = (
+				48164FA5257661C200AEEE46 /* GoogleService-Info.plist */,
+				48164F802576573600AEEE46 /* AppDelegate.swift */,
+				48164F822576573600AEEE46 /* SceneDelegate.swift */,
+				48164F9925765DB800AEEE46 /* TabBarViewController.swift */,
+				48165053257A486F00AEEE46 /* CustonProtocols.swift */,
+				48164FE52576DD3800AEEE46 /* Studios */,
+				481650452578E6F100AEEE46 /* BookingForm */,
+				481650392577BE3C00AEEE46 /* TimeCollectionViewCell */,
+				48165056257A580400AEEE46 /* PriceTableViewCell */,
+				48164F892576573700AEEE46 /* Assets.xcassets */,
+				48164F8B2576573700AEEE46 /* LaunchScreen.storyboard */,
+				48164F8E2576573700AEEE46 /* Info.plist */,
+			);
+			path = Studios;
+			sourceTree = "<group>";
+		};
+		48164FE52576DD3800AEEE46 /* Studios */ = {
+			isa = PBXGroup;
+			children = (
+				48164FA025765EEA00AEEE46 /* StudiosViewController.swift */,
+				4816503A2577C9FB00AEEE46 /* StudiosModel.swift */,
+				48165059257A655100AEEE46 /* Booking.swift */,
+				4816503D25780B1400AEEE46 /* AdminMode.swift */,
+				48164FA125765EEA00AEEE46 /* StudiosViewController.xib */,
+			);
+			path = Studios;
+			sourceTree = "<group>";
+		};
+		481650392577BE3C00AEEE46 /* TimeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				481650342577B5D600AEEE46 /* TimeCollectionViewCell.swift */,
+				481650352577B5D600AEEE46 /* TimeCollectionViewCell.xib */,
+			);
+			path = TimeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		481650452578E6F100AEEE46 /* BookingForm */ = {
+			isa = PBXGroup;
+			children = (
+				481650402578E6E900AEEE46 /* BookingFormViewController.swift */,
+				481650492578F76F00AEEE46 /* BookingFormModel.swift */,
+				481650412578E6E900AEEE46 /* BookingFormViewController.xib */,
+			);
+			path = BookingForm;
+			sourceTree = "<group>";
+		};
+		48165056257A580400AEEE46 /* PriceTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4816504C257A3E5200AEEE46 /* PriceTableViewCell.swift */,
+				4816504D257A3E5200AEEE46 /* PriceTableViewCell.xib */,
+			);
+			path = PriceTableViewCell;
+			sourceTree = "<group>";
+		};
+		73BDCCE249E9BC2B9DE79F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B61B19BCF7F2F160AB7208 /* Pods_Studios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4DD84B09770B31D95D3289 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				273EC6651BD223CA9C7535D3 /* Pods-Studios.debug.xcconfig */,
+				4492E017887F12F3626A6419 /* Pods-Studios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48164F7C2576573600AEEE46 /* Studios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48164F912576573700AEEE46 /* Build configuration list for PBXNativeTarget "Studios" */;
+			buildPhases = (
+				ACA8D1C716D609C787A773C0 /* [CP] Check Pods Manifest.lock */,
+				48164F792576573600AEEE46 /* Sources */,
+				48164F7A2576573600AEEE46 /* Frameworks */,
+				48164F7B2576573600AEEE46 /* Resources */,
+				C9F637D58319B682F651947F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Studios;
+			productName = Studios;
+			productReference = 48164F7D2576573600AEEE46 /* Studios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48164F752576573600AEEE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					48164F7C2576573600AEEE46 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 48164F782576573600AEEE46 /* Build configuration list for PBXProject "Studios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48164F742576573600AEEE46;
+			productRefGroup = 48164F7E2576573600AEEE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48164F7C2576573600AEEE46 /* Studios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48164F7B2576573600AEEE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481650432578E6E900AEEE46 /* BookingFormViewController.xib in Resources */,
+				48164F8D2576573700AEEE46 /* LaunchScreen.storyboard in Resources */,
+				4816504F257A3E5200AEEE46 /* PriceTableViewCell.xib in Resources */,
+				48164FA6257661C200AEEE46 /* GoogleService-Info.plist in Resources */,
+				481650372577B5D600AEEE46 /* TimeCollectionViewCell.xib in Resources */,
+				48164FA325765EEA00AEEE46 /* StudiosViewController.xib in Resources */,
+				48164F8A2576573700AEEE46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACA8D1C716D609C787A773C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Studios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F637D58319B682F651947F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studios/Pods-Studios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studios/Pods-Studios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Studios/Pods-Studios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48164F792576573600AEEE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48164FA225765EEA00AEEE46 /* StudiosViewController.swift in Sources */,
+				4816505A257A655100AEEE46 /* Booking.swift in Sources */,
+				4816503B2577C9FB00AEEE46 /* StudiosModel.swift in Sources */,
+				48164F812576573600AEEE46 /* AppDelegate.swift in Sources */,
+				48165054257A486F00AEEE46 /* CustonProtocols.swift in Sources */,
+				4816504A2578F76F00AEEE46 /* BookingFormModel.swift in Sources */,
+				48164F832576573600AEEE46 /* SceneDelegate.swift in Sources */,
+				4816504E257A3E5200AEEE46 /* PriceTableViewCell.swift in Sources */,
+				48164F9B25765DB800AEEE46 /* TabBarViewController.swift in Sources */,
+				481650362577B5D600AEEE46 /* TimeCollectionViewCell.swift in Sources */,
+				481650422578E6E900AEEE46 /* BookingFormViewController.swift in Sources */,
+				4816503E25780B1400AEEE46 /* AdminMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48164F8B2576573700AEEE46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48164F8C2576573700AEEE46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48164F8F2576573700AEEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48164F902576573700AEEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48164F922576573700AEEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273EC6651BD223CA9C7535D3 /* Pods-Studios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZH644H3JU;
+				INFOPLIST_FILE = Studios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.Studios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48164F932576573700AEEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4492E017887F12F3626A6419 /* Pods-Studios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZH644H3JU;
+				INFOPLIST_FILE = Studios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.Studios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48164F782576573600AEEE46 /* Build configuration list for PBXProject "Studios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48164F8F2576573700AEEE46 /* Debug */,
+				48164F902576573700AEEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48164F912576573700AEEE46 /* Build configuration list for PBXNativeTarget "Studios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48164F922576573700AEEE46 /* Debug */,
+				48164F932576573700AEEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48164F752576573600AEEE46 /* Project object */;
+}
